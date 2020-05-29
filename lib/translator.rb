@@ -21,7 +21,7 @@ def get_japanese_emoticon (file, western_emoticon)
     library[key][:english] == western_emoticon
   end
   #binding.pry
-  emoticon_key ? library[emoticon_key][:japanese]: "Sorry, that emoticon was not found."
+  emoticon_key ? library[emoticon_key][:japanese]: "Sorry, that emoticon was not found"
 end
 
 def get_english_meaning(file, japanese_emoticon)
