@@ -11,11 +11,14 @@ end
 
 def get_japanese_emoticon (file, western_emoticon)
   # code goes here
-  load_library(emoticons.yml)
+  load_library(file)
   english_meaning = emoticon_hash.key(western_emoticon)
+  english_meaning[japanese_emoticon]
 end
 
-def get_english_meaning(file, emoticon)
+def get_english_meaning(file, japanese_emoticon)
   # code goes here
-  
+  load_library(file)
+  english_meaning = emoticon_hash.key(japanese_emoticon)
+  english_meaning
 end
