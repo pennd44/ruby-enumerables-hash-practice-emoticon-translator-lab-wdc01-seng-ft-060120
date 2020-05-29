@@ -17,7 +17,7 @@ def get_japanese_emoticon (file, western_emoticon)
   # code goes here
   library = load_library(file)
   binding.pry
-  emoticon_meaning = library.key(western_emoticon)
+  emoticon_meaning = library.keys(western_emoticon)
   emoticon_meaning[japanese]
 end
 
