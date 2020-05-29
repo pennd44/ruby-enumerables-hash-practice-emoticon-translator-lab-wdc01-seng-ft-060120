@@ -20,7 +20,7 @@ def get_japanese_emoticon (file, western_emoticon)
   emoticon_key = library.keys.find do |key|
     library[key][:english] == western_emoticon
   end
-  
+  binding.pry
   library[emoticon_key][:japanese]
 end
 
