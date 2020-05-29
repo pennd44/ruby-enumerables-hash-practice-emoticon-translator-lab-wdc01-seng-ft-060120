@@ -17,4 +17,5 @@ end
 
 def get_english_meaning(file, emoticon)
   # code goes here
+  
 end
