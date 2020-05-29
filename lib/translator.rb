@@ -12,7 +12,7 @@ end
 def get_japanese_emoticon (file, western_emoticon)
   # code goes here
   load_library(emoticons.yml)
-  
+  emoticon_hash.key(western_emoticon)
 end
 
 def get_english_meaning(file, emoticon)
