@@ -2,8 +2,12 @@
 require "yaml"
 def load_library (yml_file)
   # code goes here
-  emoticon_hash = YAML.load_file(yml_file)
-
+  emoticons_hash = YAML.load_file(yml_file)
+  new_hash = {}
+  emoticons_hash.each do |key, value|
+  
+  binding.pry 
+  end
   
   
 end
